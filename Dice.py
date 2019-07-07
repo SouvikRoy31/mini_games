@@ -1,6 +1,7 @@
 import random
+ds=int(input("Enter the maximum sides of dice: ")
 gn=input("Enter your guess: ")
-e=random.randint(1,6)
+e=random.randint(1,ds)
 if(int(e)==int(gn)):
     print("You guessed Correct")
 else:
